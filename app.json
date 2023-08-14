@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "deliveroo",
+    "name": "Deliveroo",
     "slug": "deliveroo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.a7ridi.deliveroo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.a7ridi.deliveroo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13114cba-3012-4f3e-af55-bf57ec9295c7"
+      }
     }
   }
 }
